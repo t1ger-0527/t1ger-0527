@@ -42,6 +42,14 @@
       font-weight: 500;
     }
     
+    .projects li::first-line {
+      font-size: 1.1em;
+    }
+    
+    strong {
+      font-weight: 500;
+    }
+    
     .durationContainer {
       float: right;
     }
@@ -70,84 +78,83 @@
 <section>
   <h3>工作经历</h3>
   <hr>
-  <h4>
+  <h3>
     知乎 - 前端工程师
     <span class="durationContainer">
         <time datetime="2016-07-05 00:00:00" class="date">2016 年 7 月</time>
         ~
         <time datetime="2017-11-05 00:00:00" class="date">至今</time>
       </span>
-  </h4>
+  </h3>
   <details>
     <summary>
-      在知乎的一年多，让我快速从一个需求开发者的舒适圈中跳了出来，成长成为一个小团队的领头羊。<br>
-      能面对和适应压力与挑战并存的环境，同时也有技术上的热爱与骄傲。
+      在知乎的一年多，让我快速从一个需求开发者的舒适圈中跳了出来，成长成为一个小团队的领头羊。能面对和适应压力与挑战并存的环境，同时也有技术上的热爱与骄傲。
+      <ul>
+        <li>改进开发工作流程，解决效率瓶颈和稳定性隐患。</li>
+        <li>负责多个项目的项目管理工作，保证所有项目参与者沟通与协作顺畅，项目目标达成。</li>
+        <li>搭建新团队，在团队内培养高效稳定的工作氛围，保证团队成员获得技术成长。</li>
+      </ul>
     </summary>
 
-    <ul>
+    <h3>项目经历</h3>
+    <ul class="projects">
       <li>
         <a href="https://www.zhihu.com/zhi">知乎付费咨询项目（值乎）</a><br>
-        负责音频录制和播放，支付，私密咨询（项目主要收入来源），搜索等。后续成为了该项目的前端负责人<br>
-        熟悉了微信内的支付，登录，分享，录音等技术细节。以及在微信平台下开发 SPA 应用的一些注意事项。<br>
-        技术栈为 React，Redux，平台主要面向移动端
+        <strong>简介：</strong>基于知乎站内资源的语音问答平台。技术栈为 React，Redux，平台主要面向移动端。<br>
+        <strong>职责：</strong>负责音频录制和播放，支付，私密咨询（项目主要收入来源），搜索等功能的开发。后续成为了该项目的前端负责人。<br>
+        <strong>总结：</strong>熟悉了微信内的支付，登录，分享，录音等技术细节。以及在微信平台下开发 SPA 应用的一些注意事项。
       </li>
       <li>
         <a href="https://www.zhihu.com/lives">知乎 Live</a><br>
-        负责包括 Live 直播间音频视频播放，图片消息查看，支付以及登录注册流程的开发和调整。后续成为了该项目的前端负责人。<br>
-        该项目为知乎主要的知识变现项目，迭代快速敏捷，稳定性要求高。<br>
-        技术栈为 React，Redux，平台包括微信内，移动端和桌面端以及 App 内 webview（Hybrid）
+        <strong>简介：</strong>直播 + 语音形式的付费知识传播平台。技术栈为 React，Redux，平台包括微信内，移动端和桌面端以及 App 内 webview（Hybrid）。<br>
+        <strong>职责：</strong>负责包括 Live 直播间音频视频播放，图片消息查看，支付以及登录注册流程的开发和调整。后续成为了该项目的前端负责人。<br>
+        <strong>总结：</strong>熟悉了如何长期维护一个快速迭代的用户产品，懂得如何在迭代速度，代码质量与稳定性之间做取舍。
       </li>
       <li>
         知乎钱包 JS-SDK<br>
-        负责该项目的方案 review，以及作为业务方的首次联调 + 接入，后续成为了该项目前端负责人。<br>
-        技术栈为 TypeScript，平台包括微信，微博，支付宝，Hybrid（需要接入 iAP），移动端浏览器，桌面端浏览器。<br>
-        该项目对稳定性要求极高。
+        <strong>简介：</strong>支撑知乎所有业务的支付行为的通用前端 SDK。技术栈为 TypeScript，平台包括微信，微博，支付宝，Hybrid（需要接入 iAP），移动端浏览器，桌面端浏览器。<br>
+        <strong>职责：</strong>负责该项目的方案 review，以及作为业务方的首次联调 + 接入，后续成为了该项目前端负责人。<br>
+        <strong>总结：</strong>熟悉了如何正确的做任务交接，以及如何维护多场景下的复杂业务逻辑。<br>
       </li>
       <li>
-        知乎资讯（已下线）<br>
-        负责该项目前端所有需求的开发，包括资讯在 Feed 流中的形态和交互，资讯详情的评论交互，以及资讯列表。<br>
-        技术栈为 React，Redux。是基于新版 <a href="https://www.zhihu.com">知乎主站</a> 的项目进行开发的。该项目为知乎第一个 Server Render 项目。<br>
-        在项目中了解了服务端渲染的原理，基本的运维知识以及故障处理。
-      </li>
-      <li>
-        <a href="https://www.zhihu.com/market">知识市场</a>（前端部门负责人）<br>
-        作为项目前端负责人，负责该项目的开发排期，基础运维以及架构调整。该项目涉及的业务面非常广，是知乎内所有知识付费产品的聚合推荐。 <br>
-        在项目中熟悉了 A/B test ，多部门协作，scrum 等工作模式。<br>
-        技术栈为 React，Redux。是知乎第二个 Server Render 项目。目标平台：知乎 App 内 webview（Hybrid）<br>
-        知识市场部门从知乎中垂直分拆成为一个独立部门，成为了<strong>前端部门负责人</strong>。至今共有 9 名组员。
+        <a href="https://www.zhihu.com/market">知识市场</a><br>
+        <strong>简介：</strong>知乎 App 中间的「知识市场」tab 页面。技术栈为 React，Redux。是知乎第二个 Server Render 项目。目标平台：知乎 App 内 webview（Hybrid）。该项目是知乎内所有知识付费产品的聚合推荐。<br>
+        <strong>职责：</strong>作为项目前端负责人，负责该项目的开发排期，基础运维以及架构调整。 <br>
+        知识市场部门从知乎中垂直分拆成为一个独立部门。成为了<strong>前端部门负责人</strong>。至今共有 9 名组员。<br>
+        <strong>总结：</strong>在项目中熟悉了 A/B test，跨部门协作，scrum 等工作模式。<br>
       </li>
       <li>
         知乎 Live 微信小程序<br>
-        作为项目 owner，负责整体项目管理和全部的前端开发工作。协同多部门一起达成项目目标。<br>
-        该项目将目前 Web 端的 Live 收听页面移植到了小程序内，并尝试了适合微信场景内的新功能（列表页一键播放，整体播放进度控制等）。 <br>
-        后续还将「<a href="https://www.zhihu.com/remix/albums/892042341836275712">知乎私家课</a>」产品也移植到了小程序平台上。<br>
-        快速熟悉新的开发环境，独立技术选型，形成高效工作流，提升开发幸福感。同时负责招募新人，加快项目迭代速度。<br>
+        <strong>简介：</strong>该项目由一个三人小团队（前后端和产品设计师）负责，直接汇报对象是 CTO。项目将目前 Web 端的 Live 和 <a href="https://www.zhihu.com/remix/albums/892042341836275712">知乎私家课</a>
+        移植到了小程序内，并尝试了适合微信场景内的新功能（列表页一键播放，整体播放进度控制等）。<br>
+        <strong>职责：</strong>作为项目 owner，负责整体项目管理和全部的前端开发工作。协同多部门一起达成项目目标。<br>
+        <strong>总结：</strong>快速熟悉新的开发环境，独立技术选型，形成高效工作流，提升开发幸福感。同时负责招募新人，加快项目迭代速度。<br>
       </li>
     </ul> 
   </details>
 
-  <h4>
+  <h3>
     美团 - 金融发展部 - 前端工程师（实习）
     <span class="durationContainer">
       <time datetime="2015-07-01 00:00:00" class="date">2015 年 7 月</time>
       ~
       <time datetime="2016-07-01 00:00:00" class="date">2016 年 7 月</time>
     </span>
-  </h4>
+  </h3>
   <details>
     <summary>
-      在美团，从一个热爱技术的学生，成长成为了一个产出价值的工作者。 <br>
-      在相对自由的环境中，培养出了主动的工作态度。
+      在美团，从一个热爱技术的学生，成长成为了一个产出价值的工作者。在相对自由的环境中，培养出了主动的工作态度。
     </summary>
-    <ul>
+    <ul class="projects">
       <li>
         内部商户放款和还款系统<br>
-        第一次负责整个独立系统的开发，包括表格的展示，分页，以及前后端交互。<br>
-        使用 jQuery 作为辅助，完成了一个 SPA 的开发。
+        <strong>职责：</strong>负责整个独立系统的开发，包括表格的展示，分页，以及前后端交互。<br>
+        <strong>总结：</strong>使用 jQuery 作为辅助，完成了一个 SPA 的开发。
       </li>
       <li>
         内部客户管理系统（CRM）<br>
-        和他人协同开发，主导了团队内技术选型（React），进行了贷款申请流程，审批流程的开发。也进行了一些基础组件库的开发和完善。
+        <strong>职责：</strong>负责客户录入，贷款申请，审批等流程的开发。也进行了一些基础组件库的开发和完善。<br>
+        <strong>总结：</strong>和他人协同开发，主导了团队内技术选型（React）。
       </li>
     </ul>
   </details>
