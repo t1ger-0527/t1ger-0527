@@ -6,10 +6,9 @@
   <title>吴剑波 - 简历</title>
   <style>
     body {
-      max-width: 60vw;
-      min-width: 600px;
+      max-width: 600px;
+      padding: 20px;
       margin: auto;
-      
       font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI',
       'Helvetica Neue', 'Microsoft YaHei', sans-serif;
       font-weight: 400;
@@ -58,6 +57,22 @@
     .durationContainer {
       float: right;
     }
+    
+    * {
+      text-decoration-skip: ink;
+      text-decoration-skip-ink: auto;
+    }
+    
+    .qrcode {
+      width: 80px;
+      margin: -20px auto 0 auto;
+    }
+    
+    .qrcode img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   </style>
 </head>
 <body>
@@ -74,6 +89,7 @@
   <hr>
   <ul>
     <li>熟悉 React，Redux，css in js 等一些社区主流实践。能独立技术选型并快速开发。</li>
+    <li>精通微信小程序的各种技术方案。</li>
     <li>能够合理地解耦功能，让项目变得易于维护。</li>
     <li>了解后端开发工作，熟悉基本数据库原理。</li>
     <li>能快速拆解需求，理清项目依赖，合理分配工作，保证项目按期上线。</li>
@@ -86,12 +102,12 @@
   <h3>
     知乎 - 前端工程师
     <span class="durationContainer">
-        <time datetime="2016-07-05 00:00:00" class="date">2016 年 7 月</time>
-        ~
-        <time datetime="2017-11-05 00:00:00" class="date">至今</time>
-      </span>
+      <time datetime="2016-07-05 00:00:00" class="date">2016 年 7 月</time>
+      ~
+      <time datetime="2017-11-05 00:00:00" class="date">至今</time>
+    </span>
   </h3>
-  <details>
+  <details open>
     <summary>
       在知乎的一年多，让我快速从一个需求开发者的舒适圈中跳了出来，成长成为一个小团队的领头羊。能面对和适应压力与挑战并存的环境，同时也有技术上的热爱与骄傲。
       <ul>
@@ -103,6 +119,52 @@
 
     <h3>项目经历</h3>
     <ul class="projects">
+      <li>
+        知乎 App 内的问答、文章、搜索等页面。
+        <span class="durationContainer">
+          <time datetime="2018-02-01 00:00:00" class="date">2018 年 2 月</time>
+          ~
+          <time datetime="2018-05-02 00:00:00" class="date">至今</time>
+        </span>
+        <br>
+        <strong>简介：</strong>知乎 App 内的主要内容消费场景，也是公司内最大的 Hybrid 项目。<br>
+        <strong>职责：</strong>负责团队的需求排期分工，技术优化改进，帮助团队成员成长。有对大型项目进行性能优化和 code splitting 改造的经验<br>
+        <strong>总结：</strong>切换团队后，作为 TL 和组内成员经历了从不熟悉到熟悉再到相互信任的过程。进一步提升了管理技能和技术水平。
+      </li>
+      <li>
+        知乎热榜微信小程序
+        <span class="durationContainer">
+          <time datetime="2018-02-01 00:00:00" class="date">2018 年 2 月</time>
+          ~
+          <time datetime="2018-05-02 00:00:00" class="date">至今</time>
+        </span>
+        <br>
+        <p class="qrcode"><img src="http://zhstatic.zhihu.com/live/wechat-app/zhihu-lite-qrcode.jpg" alt=""></p>
+        <strong>简介：</strong>微信内知乎内容推荐、阅览和搜索的平台。目前每日 300w+ PV。<br>
+        <strong>职责：</strong>负责技术选型，需求的排期、分配和承担开发任务等工作。<br>
+        <strong>总结：</strong>在开发过程中积极分享我之前开发小程序的经验，帮助团队成员成长。同时提供了很多团队内可以复用的组件和库，方便日后的小程序开发。同时推动建立了小程序内的知乎帐号体系和支付体系。
+      </li>
+      <li>
+        <a href="https://www.zhihu.com/market">知识市场</a>
+        <span class="durationContainer">
+          <time datetime="2016-07-01 00:00:00" class="date">2016 年 7 月</time>
+          ~
+          <time datetime="2018-02-01 00:00:00" class="date">2018 年 2 月</time>
+        </span>
+        <br>
+        <strong>简介：</strong>知乎 App 中间的「知识市场」tab 页面。技术栈为 React，Redux。是知乎第二个 Server Render 项目。目标平台：知乎 App 内 webview（Hybrid）。该项目是知乎内所有知识付费产品的聚合推荐。<br>
+        <strong>职责：</strong>作为项目前端负责人，负责该项目的开发排期，基础运维以及架构调整。 <br>
+        知识市场部门从知乎中垂直分拆成为一个独立部门。成为了<strong>前端部门负责人</strong>。至今共有 9 名组员。<br>
+        <strong>总结：</strong>在项目中熟悉了 A/B test，跨部门协作，scrum 等工作模式。<br>
+      </li>
+      <li>
+        知乎 Live 微信小程序<br>
+        <p class="qrcode"><img src="http://zhstatic.zhihu.com/live/wechat-app/qrcode.jpeg" alt=""></p>
+        <strong>简介：</strong>该项目由一个三人小团队（前后端和产品设计师）负责，直接汇报对象是 CTO。项目将目前 Web 端的 Live 和 <a href="https://www.zhihu.com/remix/albums/892042341836275712">知乎私家课</a>
+        移植到了小程序内，并尝试了适合微信场景内的新功能（列表页一键播放，整体播放进度控制等）。<br>
+        <strong>职责：</strong>作为项目 owner，负责整体项目管理和全部的前端开发工作。协同多部门一起达成项目目标。<br>
+        <strong>总结：</strong>快速熟悉新的开发环境，独立技术选型，形成高效工作流，提升开发幸福感。同时负责招募新人，加快项目迭代速度。<br>
+      </li>
       <li>
         <a href="https://www.zhihu.com/zhi">知乎付费咨询项目（值乎）</a><br>
         <strong>简介：</strong>基于知乎站内资源的语音问答平台。技术栈为 React，Redux，平台主要面向移动端。<br>
@@ -121,21 +183,21 @@
         <strong>职责：</strong>负责该项目的方案 review，以及作为业务方的首次联调 + 接入，后续成为了该项目前端负责人。<br>
         <strong>总结：</strong>熟悉了如何正确的做任务交接，以及如何维护多场景下的复杂业务逻辑。<br>
       </li>
+    </ul>
+    <h3>技术相关</h3>
+    <ul class="projects">
       <li>
-        <a href="https://www.zhihu.com/market">知识市场</a><br>
-        <strong>简介：</strong>知乎 App 中间的「知识市场」tab 页面。技术栈为 React，Redux。是知乎第二个 Server Render 项目。目标平台：知乎 App 内 webview（Hybrid）。该项目是知乎内所有知识付费产品的聚合推荐。<br>
-        <strong>职责：</strong>作为项目前端负责人，负责该项目的开发排期，基础运维以及架构调整。 <br>
-        知识市场部门从知乎中垂直分拆成为一个独立部门。成为了<strong>前端部门负责人</strong>。至今共有 9 名组员。<br>
-        <strong>总结：</strong>在项目中熟悉了 A/B test，跨部门协作，scrum 等工作模式。<br>
+        设计了市场页面模块化降级方案，极大提升了稳定性。<br>
+        <strong>方案：</strong>将渲染前的数据请求过程抽象为了一个 HOC，在服务端进行容错处理，超时或出错时直接降级该模块为不渲染；在客户端手动上报报错误，确保错误被发现和知晓。<br>
+        <strong>结果：</strong>承受了不同业务方后端总计三次宕机事故，以及多次接口不兼容的错误，市场页面整体半年不可用时间为： 5 分钟。
       </li>
       <li>
-        知乎 Live 微信小程序<br>
-        <strong>简介：</strong>该项目由一个三人小团队（前后端和产品设计师）负责，直接汇报对象是 CTO。项目将目前 Web 端的 Live 和 <a href="https://www.zhihu.com/remix/albums/892042341836275712">知乎私家课</a>
-        移植到了小程序内，并尝试了适合微信场景内的新功能（列表页一键播放，整体播放进度控制等）。<br>
-        <strong>职责：</strong>作为项目 owner，负责整体项目管理和全部的前端开发工作。协同多部门一起达成项目目标。<br>
-        <strong>总结：</strong>快速熟悉新的开发环境，独立技术选型，形成高效工作流，提升开发幸福感。同时负责招募新人，加快项目迭代速度。<br>
+        主导设计了微信小程序的开发流程，工具链，方法库和框架，被全公司所使用。总计有四个小程序使用了这个开发框架，用过的都说好。<br>
+        <strong>结果：</strong>保障四个小程序又快又好上线，极大提升了小程序开发的舒适程度。<br>
+        在小程序支持 web-view 后又主导了后续以 web-view 为主的「小壳子」开发方案，将视频直播，复杂富文本渲染等功能输出到了小程序平台。<br>
+        日常在小程序开发者社区输出解决方案，帮助其他开发者，建立了一定社区影响力。
       </li>
-    </ul> 
+    </ul>
   </details>
 
   <h3>
@@ -146,7 +208,7 @@
       <time datetime="2016-07-01 00:00:00" class="date">2016 年 7 月</time>
     </span>
   </h3>
-  <details>
+  <details open>
     <summary>
       在美团，从一个热爱技术的学生，成长成为了一个产出价值的工作者。在相对自由的环境中，培养出了主动的工作态度。
     </summary>
@@ -154,12 +216,11 @@
       <li>
         内部商户放款和还款系统<br>
         <strong>职责：</strong>负责整个独立系统的开发，包括表格的展示，分页，以及前后端交互。<br>
-        <strong>总结：</strong>使用 jQuery 作为辅助，完成了一个 SPA 的开发。
+        <strong>总结：</strong>使用 vanilla javascript，完成了一个 SPA 的开发。
       </li>
       <li>
         内部客户管理系统（CRM）<br>
         <strong>职责：</strong>负责客户录入，贷款申请，审批等流程的开发。也进行了一些基础组件库的开发和完善。<br>
-        <strong>总结：</strong>和他人协同开发，主导了团队内技术选型（React）。
       </li>
     </ul>
   </details>
