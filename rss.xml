@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[T1ger Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 23 Jun 2018 08:52:31 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[After two years of working as an software engineer, I finally decided to start my blog. A Dramatic Life Change The very first reason I made…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hello-world/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hello-world/</guid><pubDate>Sat, 23 Jun 2018 08:08:12 GMT</pubDate><content:encoded>&lt;p&gt;After two years of working as an software engineer, I finally decided to start my blog.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[T1ger Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 16 Jul 2018 16:53:33 GMT</lastBuildDate><item><title><![CDATA[翻译：Dijkstra's parable]]></title><description><![CDATA[原文地址： https://www.cs.utexas.edu/users/EWD/transcriptions/EWD05xx/EWD594.html 最近我在故纸堆里找到了这篇手稿。尽管它成写于 197…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//translate-Dijkstra-parable/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//translate-Dijkstra-parable/</guid><pubDate>Mon, 16 Jul 2018 15:28:17 GMT</pubDate><content:encoded>&lt;p&gt;&lt;small&gt;原文地址：&lt;a href=&quot;https://www.cs.utexas.edu/users/EWD/transcriptions/EWD05xx/EWD594.html&quot;&gt;https://www.cs.utexas.edu/users/EWD/transcriptions/EWD05xx/EWD594.html&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;最近我在故纸堆里找到了这篇手稿。尽管它成写于 1973 年，但是我认为度过的这三年并没有让这篇寓言失去它的意义。因此我将它纳入我的文集（EWD series）并陈述在这里。&lt;/p&gt;
+&lt;h2&gt;一篇寓言&lt;/h2&gt;
+&lt;p&gt;一年前，一个铁路公司成立了。一名董事——一个搞商业的家伙——发现如果只有一半的车厢装厕所的话，初期投资会显著减少。因此，他们就这么决定这么做了。&lt;/p&gt;
+&lt;p&gt;然而，就在公司开始营运不久之后，关于厕所的投诉开始大量涌入。他们开始进行调查，并发现一个显而易见的事实：仅在公司成立初期，他们就面临了内部沟通不畅的问题。董事们关于厕所的决定并没有被传达到&lt;a href=&quot;https://zh.wikipedia.org/zh-sg/%E7%B7%A8%E7%B5%84%E5%A0%B4&quot;&gt;调车场&lt;/a&gt;，因此他们将所有车厢视为一样的并进行组装。因此，有时一整辆火车都没有几个厕所。&lt;/p&gt;
+&lt;p&gt;为了解决这个问题，车厢上开始关联一小段信息，这些信息用于标记这节车厢上是否有厕所。调车场利用这些信息来组装车厢，从而做到一辆火车上有厕所的车厢和没厕所的一样多。这种做法为调车场增加了复杂度，然而当调车场做到这个目标时，他们还挺自豪。&lt;/p&gt;
+&lt;p&gt;然而，当调车场的新工序开始生效时，关于厕所的投诉并没有停止。他们开始再次调查并发现，尽管一辆火车确实有一半的车厢都有厕所，然而这些有厕所的车厢有时会集中在火车的某一半上，另一半完全没有厕所。为了解决这个情况，新的指令传达了出来，他们要求有厕所的车厢和没厕所的车厢应当轮流放置。这样一来为调车场的伙计们增加了更多复杂度，但是在抱怨了一阵之后，他们还是做到了。&lt;/p&gt;
+&lt;p&gt;然而，投诉还未停止。他们发现原来是由于厕所通常位于车厢的某一端，因此厕所间的距离仍然可能会有三节车厢那么长。
+在某些情况下，比如母亲带着急迫的孩子，或者走廊上堆满了行李，仍然会引发严重的后果。因此，
+另一条信息被附在了装有厕所的车厢上，让其变为了有方向的实体。新的指令被传达为在一辆火车上，
+有厕所的车厢的朝向必须一致。这一次，调车场的伙计们对指令失去了热情，因为转台的数量严重不足。公平地讲，
+在任何合理的标准下，转台的数量都是严重不足的。在近乎狡猾的智慧下，这些伙计们勉强完成了指令。&lt;/p&gt;
+&lt;p&gt;当所有的厕所都等距离放置在火车上时，公司自信地认为事情终于一切正常了，然而乘客们仍然在投诉：尽管所有乘客距离厕所的位置都小于一个车厢长度了，
+然而着急的乘客却并不知道在磕磕绊绊中应该前往走廊的哪个方向。于是为了解决这个问题，在所有车厢走廊上都被印上了箭头并标明「厕所」。
+这一措施使得没有厕所的车厢也变为了有方向的实体，并且应当在车厢组装时被转向正确的方向。&lt;/p&gt;
+&lt;p&gt;当新的指令下达到调车场时，调车场陷入了绝望和抵抗的氛围：这根本没办法完成！在这个关键的时刻，一位未曾记录姓名的人观察到了这样的规律：
+一节有厕所的车厢，将其有厕所的那一头和一节没有厕所的车厢正确组装好后，可以视为一个没有方向的对称的整体。这样一来在任何情况下，
+要对付的就不是 N 节 2 种车厢的保证朝向的组装，而是 N/2 节完全对称的无方向单元的组装了。这个观察得出的规律使得所有的组装问题都被解决了，
+并且它所要花费的代价仅仅是首先要保证每辆火车的车厢数目为偶数个。这些购买额外车厢的开销，可以用最初没装厕所剩下来的钱来支付！
+其次就是厕所之间的距离并不是严格相等的了。不过到最后，谁还在乎那&lt;a href=&quot;https://www.clickz.com/technology-is-helping-to-redefine-the-last-3-feet-in-store/42267/&quot;&gt;最后三英尺&lt;/a&gt;呢？&lt;/p&gt;
+&lt;p&gt;尽管在故事发生的时候，人类未曾有幸创造出电脑。然而这位提出解决方案的，没留下姓名的人，有资格被称为第一个合格的程序员。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我曾给不同的听众讲过上述的故事。从规律上来看，程序员会被这个故事逗乐，而经理们则常常会随着故事的发展越听越恼火。而真正的数学家，不明白这个故事的意义。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[After two years of working as an software engineer, I finally decided to start my blog. A Dramatic Life Change The very first reason I made…]]></description><link>https://gatsbyjs.github.io/gatsby-starter-blog//hello-world/</link><guid isPermaLink="false">https://gatsbyjs.github.io/gatsby-starter-blog//hello-world/</guid><pubDate>Sat, 23 Jun 2018 08:08:12 GMT</pubDate><content:encoded>&lt;p&gt;After two years of working as an software engineer, I finally decided to start my blog.&lt;/p&gt;
 &lt;h2&gt;A Dramatic Life Change&lt;/h2&gt;
 &lt;p&gt;The very first reason I made this decision is that I got a new job at &lt;a href=&quot;https://shopee.sg/&quot;&gt;Shopee&lt;/a&gt;, a south-east Asia
 e-commerce company. Which means I will head to another country for work, maybe start new life with my newly wedded wife

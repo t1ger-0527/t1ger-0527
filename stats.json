@@ -8,6 +8,10 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---translate-dijkstra-parable": [
+      "path---translate-dijkstra-parable-08df559836f2b2f156da.js",
+      "path---translate-dijkstra-parable-08df559836f2b2f156da.js.map"
+    ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
@@ -21,12 +25,12 @@
       "component---src-layouts-index-js-b8ed3e9d3af9b10e4809.js.map"
     ],
     "path---index": [
-      "path---index-3acfe1d0056a3fcff7f1.js",
-      "path---index-3acfe1d0056a3fcff7f1.js.map"
+      "path---index-808018de707b624db9ce.js",
+      "path---index-808018de707b624db9ce.js.map"
     ],
     "path---hello-world": [
-      "path---hello-world-9cb7d6b47eb0ad8f8183.js",
-      "path---hello-world-9cb7d6b47eb0ad8f8183.js.map"
+      "path---hello-world-23000427606f6cd20a55.js",
+      "path---hello-world-23000427606f6cd20a55.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -47,9 +51,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-f828c0f7148fe7cfafb3.js",
+      "app-2e5eb1c58228e3c9596e.js",
       "build-js-styles.css",
-      "app-f828c0f7148fe7cfafb3.js.map",
+      "app-2e5eb1c58228e3c9596e.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
